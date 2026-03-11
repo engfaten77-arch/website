@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تواصل مع لوفينغ هومز - احجز إقامة لكلبك أو اسألنا أي سؤال.">
+    <title>تواصل معنا | لوفينغ هومز</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">الانتقال إلى المحتوى الرئيسي</a>
+
+<header class="header">
+    <div class="header-top">
+        <a href="../index.html" class="logo">🐾 لوفينغ هومز</a>
+        <span class="header-contact">📞 5678 1234 852+ &nbsp;|&nbsp; ✉️ hello@lovinghomes.hk</span>
+    </div>
+    <nav aria-label="القائمة الرئيسية">
+        <a href="../index.html">الرئيسية</a>
+        <a href="about.html">عن الشركة</a>
+        <a href="facilities.html">المرافق</a>
+        <a href="packages.html">الباقات</a>
+        <a href="gallery.html">المعرض</a>
+        <a href="faq.html">الأسئلة الشائعة</a>
+        <a href="advice.html">النصائح</a>
+        <a href="contact.html" class="active">تواصل معنا</a>
+    </nav>
+</header>
+
+<main id="main-content">
+
+    <h1>تواصل معنا</h1>
+
+    <div class="contact-info" aria-label="معلومات التواصل">
+        <h2>معلومات التواصل</h2>
+        <p>📞 الهاتف: 5678 1234 852+</p>
+        <p>✉️ البريد الإلكتروني: <a href="mailto:hello@lovinghomes.hk">hello@lovinghomes.hk</a></p>
+        <p>📍 الموقع: هونج كونج</p>
+        <p>🕐 الاثنين – الجمعة: 7 صباحاً – 8 مساءً</p>
+        <p>🕐 السبت: 8 صباحاً – 7 مساءً</p>
+        <p>🕐 الأحد: 9 صباحاً – 6 مساءً</p>
+        <p>🏥 خدمة بيطرية طارئة: 24 ساعة يومياً</p>
+    </div>
+
+    <h2>أرسل لنا رسالة</h2>
+
+    <form class="contact-form" id="contact-form" novalidate aria-label="نموذج التواصل">
+
+        <div class="form-group">
+            <label for="name">الاسم الكامل <abbr title="حقل إلزامي">*</abbr></label>
+            <input type="text" id="name" name="name"
+                   placeholder="أدخل اسمك الكامل"
+                   required
+                   aria-required="true">
+        </div>
+
+        <div class="form-group">
+            <label for="email">البريد الإلكتروني <abbr title="حقل إلزامي">*</abbr></label>
+            <input type="email" id="email" name="email"
+                   placeholder="example@email.com"
+                   required
+                   aria-required="true">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">رقم الهاتف</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="+852 XXXX XXXX">
+        </div>
+
+        <div class="form-group">
+            <label for="dog-name">اسم كلبك <abbr title="حقل إلزامي">*</abbr></label>
+            <input type="text" id="dog-name" name="dog-name"
+                   placeholder="ما اسم كلبك؟"
+                   required
+                   aria-required="true">
+        </div>
+
+        <div class="form-group">
+            <label for="package">الباقة المطلوبة</label>
+            <select id="package" name="package">
+                <option value="">— اختر الباقة —</option>
+                <option value="premier">الباقة المميزة</option>
+                <option value="classic">الباقة الكلاسيكية</option>
+                <option value="day">باقة اليوم</option>
+                <option value="custom">باقة مخصصة</option>
+                <option value="unsure">لست متأكداً بعد</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="checkin">تاريخ الوصول</label>
+            <input type="date" id="checkin" name="checkin">
+        </div>
+
+        <div class="form-group">
+            <label for="checkout">تاريخ المغادرة</label>
+            <input type="date" id="checkout" name="checkout">
+        </div>
+
+        <div class="form-group">
+            <label for="message">رسالتك أو متطلبات خاصة</label>
+            <textarea id="message" name="message"
+                      placeholder="اكتب رسالتك أو أي متطلبات خاصة لكلبك هنا..."></textarea>
+        </div>
+
+        <button type="submit" class="btn">📨 إرسال الرسالة</button>
+
+        <div class="success-msg" id="success-msg" role="alert" aria-live="polite">
+            ✅ شكراً لك! تلقينا رسالتك وسنتواصل معك خلال 24 ساعة.
+        </div>
+
+    </form>
+
+</main>
+
+<footer>
+    <div class="footer-grid">
+        <div class="footer-col">
+            <h4>🐾 لوفينغ هومز</h4>
+            <ul><li>فندق الكلاب الأول في هونج كونج</li><li>تأسس عام 2018</li></ul>
+        </div>
+        <div class="footer-col">
+            <h4>الصفحات</h4>
+            <ul>
+                <li><a href="../index.html">الرئيسية</a></li>
+                <li><a href="about.html">عن الشركة</a></li>
+                <li><a href="facilities.html">المرافق</a></li>
+                <li><a href="packages.html">الباقات</a></li>
+                <li><a href="gallery.html">المعرض</a></li>
+                <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                <li><a href="advice.html">النصائح</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>تواصل معنا</h4>
+            <ul><li>📞 5678 1234 852+</li><li>✉️ hello@lovinghomes.hk</li><li>📍 هونج كونج</li></ul>
+        </div>
+    </div>
+    <div class="footer-bottom"><p>© لوفينغ هومز. جميع الحقوق محفوظة.</p></div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
